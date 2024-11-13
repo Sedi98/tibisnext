@@ -1,11 +1,11 @@
-import { NextPage } from "next";
+
 import React from "react";
 import Image from "next/image";
 import SectionText from "../Reusable/SectionText";
 import SectionTitle from "../Reusable/SectionTitle";
 import aboutPht from "@/assets/images/about.webp";
 
-const About: NextPage = () => {
+const About:React.FC = () => {
   return (
     <section className="w-4/5 mx-auto py-24" id="about">
       {/* will be separeted */}
